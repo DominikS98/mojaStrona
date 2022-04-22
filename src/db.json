@@ -1,0 +1,216 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "title": "O mnie.txt",
+            "img": "txt",
+            "description": "to jest teks o mnie i  kim jestem",
+            "routes": false
+        },
+        {
+            "id": 2,
+            "title": "Projekty",
+            "img": "folder",
+            "description": "to jest folder z projektami które moaża zobaczyć",
+            "stack": [
+                {
+                    "id": 1,
+                    "routes": true,
+                    "title": "BibloApp",
+                    "img": "web",
+                    "description": "Praca inz",
+                    "link": "https://youthful-visvesvaraya-67404c.netlify.app/books",
+                    "photo": [
+                        {
+                            "id": 1,
+                            "description": "blablabla",
+                            "link": "../assets/imgs/wallPaper.jpg"
+                        },
+                        {
+                            "id": 2,
+                            "description": "blablabla",
+                            "link": "../assets/imgs/wallPaper.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "routes": true,
+                    "title": "Rick And Mortyi",
+                    "img": "web",
+                    "description": "Praca inz",
+                    "link": "https://jolly-heisenberg-20fc43.netlify.app/"
+                },
+                {
+                    "id": 3,
+                    "routes": true,
+                    "title": "nuxt-Dogotinder",
+                    "img": "web",
+                    "description": "Praca inz",
+                    "link": "https://monumental-squirrel-b9d92d.netlify.app/"
+                },
+                {
+                    "id": 4,
+                    "routes": true,
+                    "title": "weatherApp",
+                    "img": "web",
+                    "description": "weatherApp Public",
+                    "link": "https://goofy-mcnulty-3deeec.netlify.app/"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Technologie",
+            "img": "folder",
+            "description": "to jest opis technologi ",
+            "routes": false,
+            "stack": [
+                {
+                    "id": 1,
+                    "title": "Vue",
+                    "img": "txt",
+                    "description": "to jest opis danej technologi "
+                },
+                {
+                    "id": 2,
+                    "title": "JavaScript",
+                    "img": "txt",
+                    "description": "to jest opis technologi "
+                },
+                {
+                    "id": 3,
+                    "title": "HTML",
+                    "img": "txt",
+                    "description": "to jest opis technologi "
+                },
+                {
+                    "id": 4,
+                    "title": "CSS",
+                    "img": "txt",
+                    "description": "to jest opis technologi "
+                },
+                {
+                    "id": 5,
+                    "title": "SCSS",
+                    "img": "txt",
+                    "description": "to jest opis technologi "
+                },
+                {
+                    "id": 6,
+                    "title": "PHP",
+                    "img": "txt",
+                    "description": "to jest opis technologi "
+                },
+                {
+                    "id": 7,
+                    "title": "SQL",
+                    "img": "txt",
+                    "description": "to jest opis technologi "
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Cv.PDF",
+            "img": "pdf",
+            "description": "",
+            "routes": false,
+            "link": "../assets/pdf/Cv.PDF"
+        },
+        {
+            "id": 5,
+            "title": "GitHub",
+            "img": "web",
+            "description": "",
+            "routes": false,
+            "link": "https://github.com/DominikS98?tab=repositories"
+        }
+    ],
+    "project": [
+        {
+            "id": 1,
+            "routes": true,
+            "title": "BibloApp",
+            "img": "web",
+            "prevImg": "../assets/imgs/BiblioApp.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            "link": "https://youthful-visvesvaraya-67404c.netlify.app/books",
+            "photo": [
+                {
+                    "id": 1,
+                    "description": "to jest opis obrazaka numer jedne oraz Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "link": "../assets/imgs/wallPaper.jpg"
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "link": "../assets/imgs/wallPaper.jpg"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "routes": true,
+            "title": "RickAndMortyi",
+            "img": "web",
+            "prevImg": "../assets/imgs/BiblioApp.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            "link": "https://jolly-heisenberg-20fc43.netlify.app/",
+            "photo": [
+                {
+                    "id": 1,
+                    "description": "to jest opis obrazaka numer jedne oraz Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "link": "../assets/imgs/wallPaper.jpg"
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "link": "../assets/imgs/wallPaper.jpg"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "routes": true,
+            "title": "nuxt-Dogotinder",
+            "img": "web",
+            "prevImg": "../assets/imgs/BiblioApp.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            "link": "https://monumental-squirrel-b9d92d.netlify.app/",
+            "photo": [
+                {
+                    "id": 1,
+                    "description": "to jest opis obrazaka numer jedne oraz Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "link": "../assets/imgs/wallPaper.jpg"
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "link": "../assets/imgs/wallPaper.jpg"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "routes": true,
+            "title": "weatherApp",
+            "img": "web",
+            "prevImg": "../assets/imgs/BiblioApp.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            "link": "https://goofy-mcnulty-3deeec.netlify.app/",
+            "photo": [
+                {
+                    "id": 1,
+                    "description": "to jest opis obrazaka numer jedne oraz Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "link": "../assets/imgs/wallPaper.jpg"
+                },
+                {
+                    "id": 2,
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "link": "../assets/imgs/wallPaper.jpg"
+                }
+            ]
+        }
+    ]
+}
