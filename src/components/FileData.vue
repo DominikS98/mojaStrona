@@ -40,6 +40,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$small: 300px;
+$medium: 900px;
 .file__box {
   position: absolute;
   background: white;
@@ -50,11 +52,18 @@ export default {
   right: 20%;
   box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.301);
   border: 0.5px solid black;
+  @media screen and (max-width: $medium) {
+    width: 90%;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+  }
   .file__box--strap {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
+
     .file__box--strap__fileName {
       padding: 0 5px;
       font-size: 12px;

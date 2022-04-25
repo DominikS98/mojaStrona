@@ -54,12 +54,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$small: 300px;
+$medium: 900px;
 .box__icon {
   text-align: center;
   min-width: 100px;
   padding: 10px;
   text-decoration: none;
   border: 1px solid rgba(255, 255, 255, 0);
+  cursor: pointer;
+  @media screen and (max-width: $medium) {
+    padding: 5px;
+  }
   &:hover {
     background-color: rgba(0, 0, 0, 0.226);
     border: 1px solid rgba(27, 27, 27, 0.644);
@@ -70,7 +76,7 @@ export default {
   }
   .box__icon--title {
     color: white;
-    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    text-shadow: 0 0 10px #000000, 0 0 5px #000000;
     font-size: 15px;
   }
 }

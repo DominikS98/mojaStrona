@@ -4,7 +4,7 @@
             "id": 1,
             "title": "O mnie.txt",
             "img": "txt",
-            "description": "to jest teks o mnie i  kim jestem",
+            "description": "Nazywam sie Dominik i ukończyłe studia inżynierskie na kirunku informaty o specializacji systemy operacyjne roserzone o marketing internetowy. Aktualnie poszukuje stałej pracy. Wprzeszłość zrealizowałem kilka zlecenie komercyjnych oraz pracuje jako tester aplikacji od okołu 5 lat lecz jest to moja dodatkowa praca. Moje hobby to chodzenie po górach, nowe technologie, sport oraz programowanie.",
             "routes": false
         },
         {
@@ -15,26 +15,16 @@
             "stack": [
                 {
                     "id": 1,
+                    "projectId": 1,
                     "routes": true,
                     "title": "BibloApp",
                     "img": "web",
                     "description": "Praca inz",
-                    "link": "https://youthful-visvesvaraya-67404c.netlify.app/books",
-                    "photo": [
-                        {
-                            "id": 1,
-                            "description": "blablabla",
-                            "link": "../assets/imgs/wallPaper.jpg"
-                        },
-                        {
-                            "id": 2,
-                            "description": "blablabla",
-                            "link": "../assets/imgs/wallPaper.jpg"
-                        }
-                    ]
+                    "link": "https://youthful-visvesvaraya-67404c.netlify.app/books"
                 },
                 {
                     "id": 2,
+                    "projectId": 2,
                     "routes": true,
                     "title": "Rick And Mortyi",
                     "img": "web",
@@ -43,6 +33,7 @@
                 },
                 {
                     "id": 3,
+                    "projectId": 3,
                     "routes": true,
                     "title": "nuxt-Dogotinder",
                     "img": "web",
@@ -51,6 +42,7 @@
                 },
                 {
                     "id": 4,
+                    "projectId": 4,
                     "routes": true,
                     "title": "weatherApp",
                     "img": "web",
@@ -70,43 +62,43 @@
                     "id": 1,
                     "title": "Vue",
                     "img": "txt",
-                    "description": "to jest opis danej technologi "
+                    "description": "Vue.js Poznałem przez znajmoego na studiach który pokazał mi podstawy. Następnie z ciekawośc wykupiłem i przerobiłem kurs na udemy od Maximilian Schwarzmüller gdzie poznałem Vue wraz z Vuex oraz VueRouter. Dodatkowo podczas kuru nauczyłem sie wykożystywać menadzer pakietów: NPM. Aktualnie samodzielnie uczę sie Nuxta 3."
                 },
                 {
                     "id": 2,
                     "title": "JavaScript",
                     "img": "txt",
-                    "description": "to jest opis technologi "
+                    "description": "Językiem JavaScript poznałem  w technikum lecz zafyscynował mnie na moich praktyckach. Kolejny krokiem w nauce było kupienie i przerobienie kurus na udemi od Maximilian Schwarzmüller"
                 },
                 {
                     "id": 3,
                     "title": "HTML",
                     "img": "txt",
-                    "description": "to jest opis technologi "
+                    "description": "HTML poznałem w technikum na zajęciach. Od tamtego czasu wykorzystuje HTML w każdym projekcie."
                 },
                 {
                     "id": 4,
                     "title": "CSS",
                     "img": "txt",
-                    "description": "to jest opis technologi "
+                    "description": "Język CSS poznałem podobnie jak HTML w szkole średniej. By zapoznać sie głębiej z Css wykupiłem i przerobiłem kurs na Udemy także od Maximilian Schwarzmüller gdzie nauczyłem sie kożystać z FlexBoxa oraz Grida"
                 },
                 {
                     "id": 5,
                     "title": "SCSS",
                     "img": "txt",
-                    "description": "to jest opis technologi "
+                    "description": "W trakcie kursu z Css poznałem podstawy Scss. Oraz coraz częsciej staram sie wykorzystałem w projektach."
                 },
                 {
                     "id": 6,
                     "title": "PHP",
                     "img": "txt",
-                    "description": "to jest opis technologi "
+                    "description": "Podstawy PHP poznałem na studiach gdzie wykorzystałem jezyk do stowrzenia porstych aplikacji połączonych z bazą danych. Lecz większości jestem samoukiem PHP."
                 },
                 {
                     "id": 7,
                     "title": "SQL",
                     "img": "txt",
-                    "description": "to jest opis technologi "
+                    "description": "Podstawy poznałem w technikum. dalszą naukę kontynuowałem na studiach. Wykonałem kilka aplikacji gdzie wykorzystałem Sql. Do połączenia sie z bazą wykozystwałem PHP"
                 }
             ]
         },
@@ -134,17 +126,17 @@
             "title": "BibloApp",
             "img": "web",
             "prevImg": "../assets/imgs/BiblioApp.png",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            "description": "Prjekt ten został stworzony jako praca inżynierska. Do wykonania aplikacji wykorzystałem HTML, CSS, JavaScript wraz z Vue.js dodatkowo wykorzystałem VueX oraz VueRouter. Jako baze danych wykorzystałem firebase od Goggla.",
             "link": "https://youthful-visvesvaraya-67404c.netlify.app/books",
             "photo": [
                 {
                     "id": 1,
-                    "description": "to jest opis obrazaka numer jedne oraz Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "description": "Aplikacja pozwala na przeglądanie książek, rezerwacji, wypożyczeń. Zależonści od uprawnień konta ",
                     "link": "../assets/imgs/wallPaper.jpg"
                 },
                 {
                     "id": 2,
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "description": "dodatkowo w aplikacji można porzeglądać powoadomienia o końcu okresu wypożyczenia",
                     "link": "../assets/imgs/wallPaper.jpg"
                 }
             ]
@@ -155,17 +147,17 @@
             "title": "RickAndMortyi",
             "img": "web",
             "prevImg": "../assets/imgs/BiblioApp.png",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            "description": "Aplikacja pozwala przeglądać postacie, odcinki oraz miejsca z seri Rick & Morti. Dane zostają pobrane z strony: https://rickandmortyapi.com/",
             "link": "https://jolly-heisenberg-20fc43.netlify.app/",
             "photo": [
                 {
                     "id": 1,
-                    "description": "to jest opis obrazaka numer jedne oraz Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "description": "Prezentacja kart z opisem postaci",
                     "link": "../assets/imgs/wallPaper.jpg"
                 },
                 {
                     "id": 2,
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "description": "Tabela z danymi o odcinkach serialu",
                     "link": "../assets/imgs/wallPaper.jpg"
                 }
             ]
@@ -176,17 +168,17 @@
             "title": "nuxt-Dogotinder",
             "img": "web",
             "prevImg": "../assets/imgs/BiblioApp.png",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            "description": "Aplikacja wykorzystująca api: https://dog.ceo/dog-api/. Aplikacja pozwala przeglądać wsyztkie zawarte w bazie rasy psów. Wyełnik krótki quiz który dobierze na rase oraz takzwany 'psitinder'",
             "link": "https://monumental-squirrel-b9d92d.netlify.app/",
             "photo": [
                 {
                     "id": 1,
-                    "description": "to jest opis obrazaka numer jedne oraz Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "description": "Przentacja ras psów oraz sortowanie wyników",
                     "link": "../assets/imgs/wallPaper.jpg"
                 },
                 {
                     "id": 2,
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "description": "Prezentacja zakłądki Psitinder",
                     "link": "../assets/imgs/wallPaper.jpg"
                 }
             ]
@@ -197,17 +189,17 @@
             "title": "weatherApp",
             "img": "web",
             "prevImg": "../assets/imgs/BiblioApp.png",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            "description": "Aplikacja wykorzystująca api: https://openweathermap.org/api. Aplikacj aPozwala na przeglądanie pogdy wybranego miasta.",
             "link": "https://goofy-mcnulty-3deeec.netlify.app/",
             "photo": [
                 {
                     "id": 1,
-                    "description": "to jest opis obrazaka numer jedne oraz Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "description": "Okno startowe aplikacji",
                     "link": "../assets/imgs/wallPaper.jpg"
                 },
                 {
                     "id": 2,
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                    "description": "Okno po wpisaniu miasta",
                     "link": "../assets/imgs/wallPaper.jpg"
                 }
             ]

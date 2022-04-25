@@ -41,7 +41,6 @@ export default {
     const url = "http://localhost:3000/items";
     const response = await fetch(url);
     this.data = await response.json();
-    console.log(this.data);
   },
   methods: {
     openWindow(data) {
@@ -55,6 +54,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$small: 300px;
+$medium: 900px;
 .home {
   position: relative;
   display: flex;
@@ -62,5 +63,9 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  @media screen and (max-width: $medium) {
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
 }
 </style>
