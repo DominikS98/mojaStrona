@@ -48,6 +48,15 @@
                     "img": "web",
                     "description": "weatherApp Public",
                     "link": "https://goofy-mcnulty-3deeec.netlify.app/"
+                },
+                {
+                    "id": 5,
+                    "projectId": 5,
+                    "routes": true,
+                    "title": "Kanban",
+                    "img": "web",
+                    "description": "Kanban",
+                    "link": "https://kanban123.000webhostapp.com/kanban/index.php"
                 }
             ]
         },
@@ -117,6 +126,13 @@
             "description": "",
             "routes": false,
             "link": "https://github.com/DominikS98?tab=repositories"
+        },
+        {
+            "id": 5,
+            "title": "Kontakt.txt",
+            "img": "txt",
+            "description": "Mail: szojda.98@gmail.com",
+            "routes": false
         }
     ],
     "project": [
@@ -128,6 +144,43 @@
             "prevImg": "../assets/imgs/BiblioApp.png",
             "description": "Prjekt ten został stworzony jako praca inżynierska. Do wykonania aplikacji wykorzystałem HTML, CSS, JavaScript wraz z Vue.js dodatkowo wykorzystałem VueX oraz VueRouter. Jako baze danych wykorzystałem firebase od Goggla.",
             "link": "https://youthful-visvesvaraya-67404c.netlify.app/books",
+            "stack": [
+                {
+                    "id": 1,
+                    "name": "vue",
+                    "link": "../assets/icons/vue.png"
+                },
+                {
+                    "id": 2,
+                    "name": "VueX",
+                    "link": "../assets/icons/Vuex.png"
+                },
+                {
+                    "id": 3,
+                    "name": "VueRouter",
+                    "link": "../assets/icons/VueRouter.png"
+                },
+                {
+                    "id": 4,
+                    "name": "HTML",
+                    "link": "../assets/icons/Html.png"
+                },
+                {
+                    "id": 5,
+                    "name": "CSS",
+                    "link": "../assets/icons/Css.png"
+                },
+                {
+                    "id": 6,
+                    "name": "JavaScript",
+                    "link": "../assets/icons/JavaScript.jpg"
+                },
+                {
+                    "id": 7,
+                    "name": "FireBase",
+                    "link": "../assets/icons/FireBase.png"
+                }
+            ],
             "photo": [
                 {
                     "id": 1,
@@ -136,7 +189,7 @@
                 },
                 {
                     "id": 2,
-                    "description": "dodatkowo w aplikacji można porzeglądać powoadomienia o końcu okresu wypożyczenia",
+                    "description": "dodatkowo w aplikacji można porzeglądać powiadomienia o końcu okresu wypożyczenia",
                     "link": "../assets/imgs/wallPaper.jpg"
                 }
             ]
@@ -149,6 +202,23 @@
             "prevImg": "../assets/imgs/BiblioApp.png",
             "description": "Aplikacja pozwala przeglądać postacie, odcinki oraz miejsca z seri Rick & Morti. Dane zostają pobrane z strony: https://rickandmortyapi.com/",
             "link": "https://jolly-heisenberg-20fc43.netlify.app/",
+            "stack": [
+                {
+                    "id": 4,
+                    "name": "HTML",
+                    "link": "../assets/icons/Html.png"
+                },
+                {
+                    "id": 5,
+                    "name": "CSS",
+                    "link": "../assets/icons/Css.png"
+                },
+                {
+                    "id": 6,
+                    "name": "JavaScript",
+                    "link": "../assets/icons/JavaScript.jpg"
+                }
+            ],
             "photo": [
                 {
                     "id": 1,
@@ -170,6 +240,28 @@
             "prevImg": "../assets/imgs/BiblioApp.png",
             "description": "Aplikacja wykorzystująca api: https://dog.ceo/dog-api/. Aplikacja pozwala przeglądać wsyztkie zawarte w bazie rasy psów. Wyełnik krótki quiz który dobierze na rase oraz takzwany 'psitinder'",
             "link": "https://monumental-squirrel-b9d92d.netlify.app/",
+            "stack": [
+                {
+                    "id": 1,
+                    "name": "Nuxt",
+                    "link": "../assets/icons/Nuxt.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "HTML",
+                    "link": "../assets/icons/Html.png"
+                },
+                {
+                    "id": 5,
+                    "name": "CSS",
+                    "link": "../assets/icons/Css.png"
+                },
+                {
+                    "id": 6,
+                    "name": "JavaScript",
+                    "link": "../assets/icons/JavaScript.jpg"
+                }
+            ],
             "photo": [
                 {
                     "id": 1,
@@ -189,8 +281,73 @@
             "title": "weatherApp",
             "img": "web",
             "prevImg": "../assets/imgs/BiblioApp.png",
-            "description": "Aplikacja wykorzystująca api: https://openweathermap.org/api. Aplikacj aPozwala na przeglądanie pogdy wybranego miasta.",
+            "description": "Aplikacja wykorzystująca api: https://openweathermap.org/api. Aplikacja Pozwala na przeglądanie pogdy wybranego miasta.",
             "link": "https://goofy-mcnulty-3deeec.netlify.app/",
+            "stack": [
+                {
+                    "id": 1,
+                    "name": "HTML",
+                    "link": "../assets/icons/Html.png"
+                },
+                {
+                    "id": 2,
+                    "name": "CSS",
+                    "link": "../assets/icons/Css.png"
+                },
+                {
+                    "id": 3,
+                    "name": "JavaScript",
+                    "link": "../assets/icons/JavaScript.jpg"
+                }
+            ],
+            "photo": [
+                {
+                    "id": 1,
+                    "description": "Okno startowe aplikacji",
+                    "link": "../assets/imgs/wallPaper.jpg"
+                },
+                {
+                    "id": 2,
+                    "description": "Okno po wpisaniu miasta",
+                    "link": "../assets/imgs/wallPaper.jpg"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "routes": true,
+            "title": "Kanban",
+            "img": "web",
+            "prevImg": "../assets/imgs/BiblioApp.png",
+            "description": "Aplikacja stworzona na zaliczenie przedmiotu na studiach. Aplikacja spełnia zadanie toDo listy z logowanie i rejstracją",
+            "link": "https://kanban123.000webhostapp.com/kanban/index.php",
+            "stack": [
+                {
+                    "id": 4,
+                    "name": "HTML",
+                    "link": "../assets/icons/Html.png"
+                },
+                {
+                    "id": 5,
+                    "name": "CSS",
+                    "link": "../assets/icons/Css.png"
+                },
+                {
+                    "id": 6,
+                    "name": "JavaScript",
+                    "link": "../assets/icons/JavaScript.jpg"
+                },
+                {
+                    "id": 6,
+                    "name": "PHP",
+                    "link": "../assets/icons/PHP.png"
+                },
+                {
+                    "id": 4,
+                    "name": "MySql",
+                    "link": "../assets/icons/mysql.jpg"
+                }
+            ],
             "photo": [
                 {
                     "id": 1,

@@ -45,17 +45,20 @@ export default {
 <style lang="scss">
 $small: 300px;
 $medium: 900px;
+$green: #0aff7c;
+$black: #000000;
+$blue: #370aff;
 * {
   margin: 0;
   body {
     min-height: 100vh;
     background-image: url("../public/assets/imgs/wallPaper.jpg");
   }
+
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
   }
 
   .menu--box {
@@ -63,14 +66,16 @@ $medium: 900px;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(8, 8, 8, 0.699);
-    height: 50px;
+    min-height: 50px;
+    @media screen and (max-width: $medium) {
+      background-color: rgba(8, 8, 8, 0.856);
+    }
     .menu {
       transition: 0.5s;
-      display: none;
+      display: flex;
       padding: 20px;
       justify-content: space-evenly;
-      background-color: rgba(8, 8, 8, 0.699);
+      background-color: rgba(8, 8, 8, 0.856);
       z-index: 10;
       a {
         font-weight: bold;
@@ -97,6 +102,7 @@ $medium: 900px;
         }
       }
       @media screen and (max-width: $medium) {
+        display: none;
         flex-flow: column;
         height: 50vh;
         padding: 0px;
