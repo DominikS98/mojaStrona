@@ -18,6 +18,7 @@
     <section class="stack--box">
       <div class="stack--box__item" v-for="tech in data.stack" :key="tech.name">
         <img :src="tech.link" alt="tech.name" />
+
         <h4>{{ tech.name }}</h4>
       </div>
     </section>
@@ -46,6 +47,7 @@ export default {
   data() {
     return {
       data: "",
+      see: false,
     };
   },
   methods: {

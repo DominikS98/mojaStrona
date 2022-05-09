@@ -6,7 +6,9 @@
       </div>
       <div class="file__box--strap__options">
         <button type="button" class="">-</button>
-        <button @click="$emit('close-file')" type="button" class="">X</button>
+        <button @click="$emit('close-file')" type="button" class="">
+          <font-awesome-icon :icon="['fa', 'x']" class="icon alt" />
+        </button>
       </div>
     </section>
     <section class="file__box--body">

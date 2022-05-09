@@ -12,6 +12,7 @@
       @close-file="closeFile"
       @open-window="openWindow"
     />
+
     <TxtFile
       v-else-if="dataToWindow"
       :data="dataToWindow"

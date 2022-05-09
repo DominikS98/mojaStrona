@@ -212,17 +212,17 @@
             "link": "https://jolly-heisenberg-20fc43.netlify.app/",
             "stack": [
                 {
-                    "id": 4,
+                    "id": 1,
                     "name": "HTML",
                     "link": "../assets/icons/Html.png"
                 },
                 {
-                    "id": 5,
+                    "id": 2,
                     "name": "CSS",
                     "link": "../assets/icons/Css.png"
                 },
                 {
-                    "id": 6,
+                    "id": 3,
                     "name": "JavaScript",
                     "link": "../assets/icons/JavaScript.jpg"
                 }
