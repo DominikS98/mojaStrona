@@ -4,7 +4,7 @@
             "id": 1,
             "title": "O mnie.txt",
             "img": "txt",
-            "description": "Nazywam sie Dominik i ukończyłe studia inżynierskie na kirunku informaty o specializacji systemy operacyjne roserzone o marketing internetowy. Aktualnie poszukuje stałej pracy. Wprzeszłość zrealizowałem kilka zlecenie komercyjnych oraz pracuje jako tester aplikacji od okołu 5 lat lecz jest to moja dodatkowa praca. Moje hobby to chodzenie po górach, nowe technologie, sport oraz programowanie.",
+            "description": "Nazywam sie Dominik i ukończyłe studia inżynierskie na kierunku informatka z specializacją systemy operacyjne rozszerzone o marketing internetowy. Aktualnie poszukuje stałej pracy. Wprzeszłość zrealizowałem kilka zlecenie komercyjnych oraz pracuje jako tester aplikacji od okołu 5 lat lecz jest to moja dodatkowa praca. Moje hobby to chodzenie po górach, nowe technologie, sport oraz programowanie.",
             "routes": false
         },
         {
@@ -121,6 +121,14 @@
         },
         {
             "id": 5,
+            "title": "CvEn.PDF",
+            "img": "pdf",
+            "description": "",
+            "routes": false,
+            "link": "../assets/pdf/Cv_DominikSzojda_En.PDF"
+        },
+        {
+            "id": 6,
             "title": "GitHub",
             "img": "web",
             "description": "",
@@ -128,7 +136,7 @@
             "link": "https://github.com/DominikS98?tab=repositories"
         },
         {
-            "id": 5,
+            "id": 7,
             "title": "Kontakt.txt",
             "img": "txt",
             "description": "Mail: szojda.98@gmail.com",
